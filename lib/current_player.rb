@@ -11,8 +11,7 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_cout(board) = (turn_coat(board) % 2 == 0 ? "X" : "O");
-  puts turn_count(board)
+  answer = (turn_coat(board) % 2 == 0 ? "X" : "O");
   end
   answer
 end
