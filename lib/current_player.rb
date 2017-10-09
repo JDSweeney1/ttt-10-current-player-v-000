@@ -12,6 +12,5 @@ end
 
 def current_player(board)
   answer = (turn_coat(board) % 2 == 0 ? "X" : "O");
-  end
   answer
 end
